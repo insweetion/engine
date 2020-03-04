@@ -43,6 +43,8 @@ else {
 
 require('./extensions/spine');
 require('./extensions/dragonbones');
+require('./extensions/insweetion');
+require('./extensions/welove');
 
 if (!CC_EDITOR || !Editor.isMainProcess) {
     require('./cocos2d/deprecated');

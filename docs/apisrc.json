@@ -87,5 +87,7 @@
 
     "./extensions/ccpool/*.js",
     "./extensions/spine/*.js",
-    "./extensions/dragonbones/*.js"
+    "./extensions/dragonbones/*.js",
+    "./extensions/insweetion/*.js",
+    "./extensions/welove/*.js"
 ]

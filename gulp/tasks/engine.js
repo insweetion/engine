@@ -58,6 +58,8 @@ var jsbSkipModules = [
     '../../extensions/dragonbones/CCFactory.js',
     '../../extensions/dragonbones/CCSlot.js',
     '../../extensions/dragonbones/CCTextureData.js',
+    '../../extensions/insweetion/insweetion.js',
+    '../../extensions/welove/welove.js',
 
     // gfx
     '../../cocos2d/renderer/gfx/device.js',
@@ -85,7 +87,7 @@ var jsbSkipModules = [
 
     // buffer
     '../../cocos2d/core/renderer/webgl/model-batcher.js',
-    '../../cocos2d/core/renderer/webgl/spine-buffer.js',
+    '../../cocos2d/core/renderer/webgl/spine-buffer.js'
 ];
 var jsbAliasify = {
     replacements: {
@@ -536,5 +538,9 @@ exports.excludeAllDepends = function (excludedModules) {
         return [];
     }
 };
+
+exports.buildInsweetionJs = function(){
+
+}
 
 exports.jsbSkipModules = jsbSkipModules;

@@ -97,6 +97,18 @@
     ],
     "dependencies": ["WebGL Renderer"]
   },
+  {
+    "name": "Insweetion",
+    "entries": [
+      "./extensions/insweetion/index.js"
+    ]
+  },
+  {
+    "name": "Welove",
+    "entries": [
+      "./extensions/welove/index.js"
+    ]
+  },
 
   {
     "name": "EditBox",
