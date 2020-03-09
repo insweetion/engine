@@ -29,7 +29,7 @@ var macro = require('../../platform/CCMacro');
 const PerfCounter = require('./perf-counter');
 
 let _showFPS = false;
-let _fontSize = 15;
+let _fontSize = 25;
 
 let _stats = null;
 let _rootNode = null;
@@ -68,6 +68,8 @@ function generateNode () {
 
     let left = new cc.Node('LEFT-PANEL');
     left.anchorX = left.anchorY = 0;
+    left.x = 50;
+    left.y = 50;
     let leftLabel = left.addComponent(cc.Label);
     leftLabel.fontSize = _fontSize;
     leftLabel.lineHeight = _fontSize;
@@ -76,7 +78,8 @@ function generateNode () {
     let right = new cc.Node('RIGHT-PANEL');
     right.anchorX = 1;
     right.anchorY = 0;
-    right.x = 200;
+    right.x = 320;
+    right.y = 50;
     let rightLabel = right.addComponent(cc.Label);
     rightLabel.horizontalAlign = cc.Label.HorizontalAlign.RIGHT;
     rightLabel.fontSize = _fontSize;
